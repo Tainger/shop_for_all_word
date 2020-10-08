@@ -1,0 +1,1 @@
+# shop_for_all_word
