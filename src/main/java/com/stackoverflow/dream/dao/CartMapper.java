@@ -2,7 +2,11 @@ package com.stackoverflow.dream.dao;
 
 import com.stackoverflow.dream.pojo.Cart;
 
+/**
+ * @author rocky
+ */
 public interface CartMapper {
+
     int deleteByPrimaryKey(Integer id);
 
     int insert(Cart record);

@@ -2,6 +2,9 @@ package com.stackoverflow.dream.dao;
 
 import com.stackoverflow.dream.pojo.Shipping;
 
+/**
+ * @author rocky
+ */
 public interface ShippingMapper {
     int deleteByPrimaryKey(Integer id);
 

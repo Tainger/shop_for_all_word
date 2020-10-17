@@ -2,7 +2,11 @@ package com.stackoverflow.dream.dao;
 
 import com.stackoverflow.dream.pojo.Order;
 
+/**
+ * @author rocky
+ */
 public interface OrderMapper {
+
     int deleteByPrimaryKey(Integer id);
 
     int insert(Order record);

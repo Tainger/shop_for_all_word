@@ -29,6 +29,7 @@
     delete from mmall_product
     where id = #{id,jdbcType=INTEGER}
   </delete>
+
   <insert id="insert" parameterType="com.stackoverflow.dream.pojo.Product" >
     insert into mmall_product (id, category_id, name, 
       subtitle, main_image, sub_images, 

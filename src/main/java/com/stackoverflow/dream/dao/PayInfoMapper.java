@@ -2,7 +2,11 @@ package com.stackoverflow.dream.dao;
 
 import com.stackoverflow.dream.pojo.PayInfo;
 
+/**
+ * @author rocky
+ */
 public interface PayInfoMapper {
+
     int deleteByPrimaryKey(Integer id);
 
     int insert(PayInfo record);

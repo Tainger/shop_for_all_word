@@ -8,6 +8,17 @@ spring:
     url: jdbc:mysql://localhost:3306/mmall?characterEncoding=utf-8&useSSL=false&serverTimezone=Hongkong
     username: root
     password: jia19971210
+  redis:
+    host: redis-server
+    port: 6379
+    database: 7
+    timeout: 5000ms
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: 5000ms
+        max-idle: 8
+        min-idle: 1
 mybatis:
   mapper-locations: classpath:/mappers/*.xml
   type-aliases-package: com.stackoverflow.dream.pojo
